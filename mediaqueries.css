@@ -1,0 +1,38 @@
+/*
+@media screen and (max-width: 888px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+ 
+}
+
+*/
+
+/* Media Query for Mobile Screens (768px and below) */
+@media (max-width: 768px) {
+    /* Hide Desktop Navigation on Mobile */
+    .nav-links {
+        display: none;
+    }
+
+    /* Show Hamburger Navigation on Mobile */
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+/* Media Query for Tablet and Larger Screens (769px and above) */
+@media (min-width: 769px) {
+    /* Show Desktop Navigation */
+    .nav-links {
+        display: flex;
+    }
+
+    /* Hide Hamburger Navigation on Larger Screens */
+    #hamburger-nav {
+        display: none;
+    }
+}
